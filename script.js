@@ -18,7 +18,7 @@ img.addEventListener("mousemove", function (e) {
     (e.offsetX > 42 && e.offsetY > 317 && e.offsetX < 173 && e.offsetY < 408) ||
     (e.offsetX > 299 && e.offsetX < 373 && e.offsetY > 166 && e.offsetY < 257)
   ) {
-    img.setAttribute("class", "img add-cursor");
+    img.classList.add("add-cursor");
   } else {
     img.setAttribute("class", "img");
   }
